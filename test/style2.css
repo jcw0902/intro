@@ -1,0 +1,76 @@
+/* http://meyerweb.com/eric/tools/css/reset/
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+
+.container{width: 100%; overflow: hidden; text-align: center}
+header {width: 100%; background-color: rgb(114,51,235)}
+header > .headWarapper{max-width: 1440px; margin: 0 auto}
+header h1 {padding-top: 160px;text-indent: 100%; display: block;white-space: nowrap;overflow: hidden; background: url('https://s3.ap-northeast-2.amazonaws.com/design-source/meetjul-close-page/img_logo.png') no-repeat; background-position: center; background-size: 100%; width: 155px; height: 146px;margin: 0 auto}
+main {width: 100%; overflow: hidden}
+section {overflow: hidden; }
+section article{ font-size: 22px; background-color: #fff}
+section > article:first-child{background-color: rgb(114,51,235); }
+
+article blockquote{color: #8e8e8e; font-size: 16px; margin:20px 0}
+article > div {padding-bottom: 80px}
+article > div h2 {color: #fff; font-size: 36px; font-weight: 100px; padding-bottom: 30px}
+article > div p {line-height: 30px; color: #d7ccf5; font-size: 17px; font-weight: 200; }
+figure > img {max-width: 100%;height: auto;display: inline-block}
+.boxShadow > img {box-shadow: 30px 0px 30px rgba(49,17,110,0.3)}
+
+article.content > div {overflow: hidden;margin-top: 80px; padding-top: 30px}
+article.content > div h3{font-weight: 600; font-size: 20px; line-height: 40px; border-bottom: 5px solid #7233eb;display: inline}
+article.content > div p{font-size: 17px; font-weight: 200; padding-top:22px; color: #494949; line-height: 10px; }
+.hint{color: #ea2751}
+
+article.ps{font-size: 17px; font-weight: 200; padding-top:22px; color: #494949; line-height: 30px;}
+div.contact {padding: 120px 0; font-size: 17px; font-weight: 700; color: #494949}
+
+footer {overflow: hidden; padding-bottom: 100px}
+footer h5 {font-size: 17px; line-height: 40px; font-weight: 700;}
