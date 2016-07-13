@@ -1410,7 +1410,7 @@
 
 	body {
 		background-color: #000;
-		background-image: url("../../images/bg.jpg");
+		background-image: url("https://raw.githubusercontent.com/jcw0902/intro/gh-pages/images/bg.jpg");
 		background-size: cover;
 		background-position: top center;
 	}
